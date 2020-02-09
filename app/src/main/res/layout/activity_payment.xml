@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/creditcard"
+        android:textSize="15sp"
+        android:text="Credit Card Number: "/>
+
+    <EditText
+        android:layout_below="@+id/creditcard"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/creditcardnumber"
+        android:hint="Type Credit Card Number here"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delivery"
+        android:layout_below="@+id/creditcardnumber"
+        android:text="Deliver Charge:"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/delivery"
+        android:text="$4"
+        android:textSize="15sp"
+        android:layout_below="@+id/creditcardnumber"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="5sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="PAY"
+        android:id="@+id/paying"/>
+
+
+</RelativeLayout>

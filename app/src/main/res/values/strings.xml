@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MAPP_CA2</string>
+    <string name="username">Username:</string>
+    <string name="usertextbox">Please enter your username</string>
+    <string name="password">Password:</string>
+    <string name="passtextbox">Please enter your password</string>
+    <string name="loginbtn">login</string>
+    <string name="foodcourtone">FC1</string>
+    <string name="western">Western Stall</string>
+    <string name="orderfood">Order Food</string>
+    <string name="nameoffood">Name of Food: </string>
+    <string name="Western">Western Food</string>
+    <string name="typeofwesternfood">Chicken Steak With Black Pepper Sauce</string>
+    <string name="typeofbeef">Spaghetti</string>
+    <string name="typeoffish">Salmon Fillet</string>
+    <string name="quantity">Quantity: </string>
+    <string name="quantityamount">Please enter your quantity</string>
+    <string name="price">28</string>
+    <string name="beefprice">15</string>
+    <string name="fishprice">35</string>
+    <string name="addcart">Add to cart</string>
+    <string name="Carttitle">Cart</string>
+    <string name="clearcart">Clear cart</string>
+    <string name="pricename">Price($): </string>
+    <string name="aboutus"> ABOUT US </string>
+    <string name="Kenneth">Kenneth Kuah and Matthew Phan</string>
+    <string name="doneby">Done By: </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="proceed">Proceed</string>
+    <string name="thanks">Thank you for shopping with us!!! You will be notified when your food is ready!!!</string>
+    <string name="home">Home</string>
+
+</resources>

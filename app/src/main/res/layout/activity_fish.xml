@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fish">
+    <TextView
+        android:id="@+id/fishheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginLeft="78dp"
+        android:text="@string/Western"/>
+
+    <ImageView
+        android:id="@+id/fishid"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fishheader"
+        android:src="@drawable/fish"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fishid"
+        android:text="@string/typeoffish"
+        android:textSize="20sp"
+        android:layout_marginLeft="28dp"
+        android:id="@+id/titlefish"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantity"
+        android:layout_below="@+id/titlefish"
+        android:layout_marginTop="38dp"
+        android:textSize="20sp"
+        android:id="@+id/fishquantityid"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="28dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/quantityamount"
+        android:layout_below="@+id/titlefish"
+        android:id="@+id/fishquantityedit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fishquantityid"
+        android:text="@string/pricename"
+        android:textSize="20sp"
+        android:id="@+id/fishprices"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fishquantityid"
+        android:layout_marginLeft="100dp"
+        android:text="@string/fishprice"
+        android:textSize="20sp"
+        android:id="@+id/fishpricing"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addcart"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/addtocart"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Beefsteak">
+
+    <TextView
+        android:id="@+id/beefheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginLeft="78dp"
+        android:text="@string/Western"/>
+
+    <ImageView
+        android:id="@+id/beefid"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beefheader"
+        android:src="@drawable/spaghetti"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beefid"
+        android:text="@string/typeofbeef"
+        android:textSize="20sp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/titlebeef"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantity"
+        android:layout_below="@+id/titlebeef"
+        android:layout_marginTop="38dp"
+        android:textSize="20sp"
+        android:id="@+id/beefquantityid"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="28dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/quantityamount"
+        android:layout_below="@+id/titlebeef"
+        android:id="@+id/beefquantityedit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beefquantityid"
+        android:text="@string/pricename"
+        android:textSize="20sp"
+        android:id="@+id/beefprices"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beefquantityid"
+        android:layout_marginLeft="100dp"
+        android:text="@string/beefprice"
+        android:textSize="20sp"
+        android:id="@+id/beefpricing"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addcart"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/beefaddtocart"/>
+
+</RelativeLayout>
